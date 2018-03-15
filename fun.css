@@ -1,0 +1,239 @@
+body
+{
+ 
+    height: 3000px;
+}
+.container
+{
+    width: 1170px;
+    margin: 20px auto;
+}
+.clearfix
+{
+    clear: both;
+}
+
+.header .sidebar
+{
+ background-image: url(https://images.pexels.com/photos/2019/books-colorful-colourful-shop.jpg?h=350&auto=compress&cs=tinysrgb);
+    background-color: #EEE;
+    height: 500px;
+    background-size: cover;
+    
+}
+.header .sidebar .intro{
+   padding-top: 200px;
+    
+    text-align: center;
+    color: #FFF;
+}
+
+.header .sidebar .intro h2{
+    margin: 0 auto;
+    font-size: 40px;
+    width: 500px;
+    border-top: 3px solid #c8ce23;
+    border-bottom: 3px solid #c8ce23;
+    padding: 4px 0;
+    
+    
+}
+.header .sidebar .intro button{background-color: none;
+   
+    margin-top: 30px;
+    font-size: 20px;
+    border: 2px solid #FFF;
+    font-weight: bold;
+    padding: 10px 20px;
+    
+
+}
+
+.header .navbar
+{
+    background-color: #252F31;
+    overflow: hidden;
+    color:aliceblue;
+    
+}
+.header .navbar h2
+{
+    float: left;
+    text-transform: capitalize;
+}
+
+.header .navbar h2 span
+{
+    color:#30cc79;
+}
+
+
+
+.header .navbar ul
+{
+    list-style: none;
+    padding-left: 0;
+    overflow: hidden;
+    float: right;
+}
+.header .navbar ul li
+{
+    float: left;
+    padding: 10px;
+}
+.header .navbar ul li a{
+    color: #fff;
+    text-decoration: none
+}
+
+.header .navbar ul li a:hover{
+  color: #27c10f; 
+}
+
+
+.features
+{
+    overflow: hidden;
+        padding-top: 50px;
+        padding-right: 30px;
+}
+.features .feat{
+    float: left;
+    width: 33.333333%;
+    height: 150px;
+    background-color: antiquewhite; /* for layout only */
+}
+
+.features .feat h2 {
+  color: #444;  
+}
+
+features .feat p{
+    line-height: 2;
+    color: #888;
+}
+.about-me
+{
+    background-color: #f9f2f2;
+    overflow: hidden;
+}
+.about-me .image
+
+{
+    float: left;
+    width: 25%;
+}
+
+.about-me .image img{width: 75%}
+
+}
+
+.about-me .info{
+    float: left;
+    width: 70%;
+}
+.about-me .info h2{
+    margin: 40px 0 20px 40px;
+}
+.about-me .info > p{
+    margin: 0 0 10px 40px;
+   
+}
+
+.about-me .info > p:last_of_type {
+    margin-top: 30px;
+}
+.about-me .info p{
+      line-height: 1.7;
+    color: #666;
+}
+
+
+.about-me .info .hobbies
+{
+   overflow: hidden;
+    margin: 20px 0 0 40px;
+  
+}
+.about-me .info .hobbies > div {
+    float: left;
+    width: 50%;
+    min-height: 100px;
+}
+
+.my-skills{
+    padding-top:30px;
+    padding-bottom: 30px;
+    overflow: hidden;
+}
+.my-skills .skills,
+.my-skills .progress
+{
+    widows: 50%;
+    float: left;
+}
+.resume{
+    background-color: #F2F2F2;
+    
+      padding-top:30px;
+    padding-bottom: 30px;
+    text-align: center
+}
+
+
+.my-education{
+    padding-top:30px;
+    padding-bottom: 30px;
+    overflow: hidden;
+}
+.my-education .main,
+.my-skills .exp
+{
+    widows: 50%;
+    float: left;
+}
+
+.testimoinals{
+    background-color: #F2F2F2;  
+      padding-top:30px;
+    padding-bottom: 30px;
+    text-align: center
+}
+
+.portfolio{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    
+}
+.portfolio .our-work
+{
+    overflow: hidden;
+}
+
+.portfolio .our-work > div {
+    float: left;
+    width: 33.333333%;
+    margin-bottom: 10px;
+    
+}
+.portfolio .our-work > div img {width: 65%; margin: 0 auto}
+.contact
+{
+    background-color: #ad9898;
+    overflow: hidden;
+}
+.contact h2 {color:#FFF}
+.contact p {color:#6A6E71}
+
+.contant .info,
+.contact .form
+{
+    width: 50%;
+    float: left;
+}
+.footer{
+    background-color:  #ad9898;
+    padding: 20px 0;
+    text-align: center
+}
